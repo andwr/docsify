@@ -17,17 +17,12 @@ Docsify — это генератор сайтов на базе [NodeJS](https:
 * Amazon — [style-dictionary](https://amzn.github.io/style-dictionary/#/)
 * Microsoft — [Web-Dev-For-Beginners](https://microsoft.github.io/Web-Dev-For-Beginners/#/)
 
-## Репозитории
+## Ссылки текущего проекта
 
-Upstream:
-
-* https://github.com/koshelekapi/docsify
-* https://koshelekapi.github.io/docsify
-
-Origin:
-
-* https://github.com/andwr/docsify
-* https://andwr.github.io/docsify
+|  |Repository URL|GitHub Pages URL|
+|--|--|--|
+|**Origin**|https://github.com/andwr/docsify-fork|https://andwr.github.io/docsify-fork|
+|**Upstream**|https://github.com/koshelekapi/docsify|https://koshelekapi.github.io/docsify|
 
 ## Ограничения
 
