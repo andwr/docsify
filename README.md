@@ -1,2 +1,2 @@
 # docsify
-Проект исследования движка docsify
+Docsify
