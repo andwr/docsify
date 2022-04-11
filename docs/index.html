@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Описание проекта">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Project name',
+      // logo: '/_media/koshelek.png',
+      repo: 'https://github.com/koshelekapi/docsify',
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 2,
+      coverpage: false,
+      maxLevel: 4,
+      plantuml: {
+        skin: 'classic',
+        renderSvgAsObject: false
+        },
+      search: {
+        placeholder: {
+          '/en-us/': 'Search',
+          '/': 'Поиск'
+        },
+        noData: {
+          '/en-us/': 'Nothing found',
+          '/': 'Ничего не найдено'
+          },
+        pathNamespaces: ['/ru-ru', '/en-us']
+      },
+      tabs: {
+        persist    : true,      // default
+        sync       : true,      // default
+        theme      : 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+        },
+      copyCode: {
+        buttonText : 'Copy',
+        errorText  : 'Error',
+        successText: 'Copied'
+      }
+  };
+  </script>
+  <!-- Docsify: v4 base dependency -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- Docsify: Full text search (https://docsify.js.org/#/plugins?id=full-text-search) -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- Docsify: zoom image (https://docsify.js.org/#/plugins?id=zoom-image) -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- Docsify: syntax highlighting for JSON (https://docsify.js.org/#/language-highlight?id=language-highlighting) -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.27.0/components/prism-json.js"></script>
+  <!-- Awesome Docsify: docsify-copy-code (https://github.com/jperasmus/docsify-copy-code) -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- Awesome Docsify: docsify-plantuml -->
+  <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
+  <!-- Awesome Docsify: docsify-themeable (https://jhildenbiddle.github.io/docsify-themeable/#/) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/default.css">
+  <!-- Awesome Docsify: docsify-tabs (https://jhildenbiddle.github.io/docsify-tabs/#/) -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+</body>
+</html>
