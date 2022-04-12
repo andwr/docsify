@@ -11,4 +11,4 @@
     - [Аналитика](analytics.md)
     - [Кастомизация](customization.md)
     - [Плагины](plugins.md)
-    - [Процесс](review.md)
+    - [Внесение изменений](review.md)
