@@ -18,6 +18,10 @@ Docsify — это генератор сайтов на базе [NodeJS](https:
 
 ## Ссылки текущего проекта
 
+Данный проект по исследованию docsify размещен на GitHub и опубликован посредством GitHub Pages.
+
+Ссылки проекта:
+
 |  |Repository URL|GitHub Pages URL|
 |--|--|--|
 |**Origin**|https://github.com/andwr/docsify-fork|https://andwr.github.io/docsify-fork|
