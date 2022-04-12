@@ -23,6 +23,18 @@ Docsify — это генератор сайтов на базе [NodeJS](https:
 |**Origin**|https://github.com/andwr/docsify-fork|https://andwr.github.io/docsify-fork|
 |**Upstream**|https://github.com/koshelekapi/docsify|https://koshelekapi.github.io/docsify|
 
+## Базовая структура проекта
+
+```
+docs/
+    index.html      # Настройки проекта
+    _coverpage.md   # Настройки титульной страницы
+    _navbar.md      # Настройки верхней панели навигации
+    _sidebar.md     # Настройки боковой панели навигации
+    ...             # Статьи MD
+```
+
+
 ## Ограничения
 
 ### Не поддерживавется рендеринг спецификаций OpenAPI
