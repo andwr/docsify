@@ -6,7 +6,6 @@ Docsify — это генератор сайтов на базе [NodeJS](https:
 - [x] Кастомизация CSS, темы
 - [x] Отключаемая заглавная страница
 - [x] Плагины
-- [ ] Не поддерживается рендеринг спецификаций OpenAPI
 
 Документация: https://docsify.js.org/#/?id=docsify
 
@@ -25,6 +24,12 @@ Docsify — это генератор сайтов на базе [NodeJS](https:
 |**Upstream**|https://github.com/koshelekapi/docsify|https://koshelekapi.github.io/docsify|
 
 ## Ограничения
+
+### Не поддерживавется рендеринг спецификаций OpenAPI
+
+Нет встроенного механизма для вывода спецификаций OAS. В качестве решения можно использовать плагин `express-jsdoc-swagger`. 
+
+Подробности — в статье [OpenAPI](openapi.md).
 
 ### Не работает перенос строки в цитате
 
